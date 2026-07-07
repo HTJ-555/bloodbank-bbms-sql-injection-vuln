@@ -1,1 +1,1 @@
-# bloodbank-bbms-sql-injection-vuln
+This repository contains complete reproduction evidence, source code, vulnerability reports and remediation solutions for the SQL injection vulnerability in PHP Blood Bank V1.0 (bbms.php).
